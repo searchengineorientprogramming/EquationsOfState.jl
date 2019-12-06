@@ -5,7 +5,7 @@ module LinearFitting
 
 using LinearAlgebra: dot
 using Polynomials: polyder, polyfit, degree, coeffs, Poly
-using Rematch: @match
+using MLStyle: @match
 
 using ..FiniteStrains
 
